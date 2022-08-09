@@ -80,6 +80,57 @@ body{
         
     }
 
+
+.answertoquestion{
+    padding: 50px 0;
+}
+.answertoquestion__row{
+    display: flex;
+}
+.answertoguestion__img{
+    flex: 0 0 430px;
+}
+.answertoguestion__img img{
+    max-width: 100%;
+}
+.answertoguestion__answer{
+    flex: 1 1 auto;
+    margin: 0 0 0 30px;
+}
+.answertoguestion__answertitle{
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 33px 0;
+}
+.answertoguestion__text p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+   margin-bottom: 30px;
+}
+.answertoguestion__text{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
         background-color: #f5f5f5;
     }
