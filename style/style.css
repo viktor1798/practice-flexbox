@@ -26,6 +26,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .wrapper{
@@ -39,6 +40,7 @@ body{
 /*Ограничивает ширину*/
 .container{
     max-width: 1180px;
+    /*центрует*/
     margin: 0 auto; 
 }
  
@@ -47,9 +49,11 @@ body{
 .hi{
     background: #445162;
     padding: 50px 0;
+  
 }
     .hi__row{
         display: flex;
+        /*распределяет поровну на всю ширину контейнера*/
         justify-content: space-between;
     }
     .hi__body{
@@ -61,6 +65,7 @@ body{
         line-height: 1.2;
         font-weight: 400;
         text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+        /*внешний отступ*/
         margin: 0px 0 36px 0;
     }
     ul{
@@ -180,10 +185,12 @@ body{
 }
 .vertical__row{
     display: flex;
+    /*увеличиваем контейнер, дабы увеличить отступы лежащих в них элементов*/
     margin: 0 -22.5px;
 }
 .vertical__box{
     flex: 0 1 33.3%;
+    /* увеличиваем отступы элементов*/
     padding: 0 22.5px;
     display: flex;
 
@@ -194,6 +201,7 @@ body{
     color: white;
     border: 1px solid #445162;
     padding-bottom: 20px;
+    /*переварачиваем на 90 градусов*/
     display: flex;
     flex-direction: column;
 
@@ -221,6 +229,7 @@ body{
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
+    /*прибиваем вниз, выравнивая по самому большому элементу*/
     flex: 1 1 auto;
 }
 .vertical__text p{
