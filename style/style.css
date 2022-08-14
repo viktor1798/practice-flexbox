@@ -83,9 +83,7 @@ body{
     .hi__list li:last-child{
         margin: 0;
     }
-    .hi__img{
-        
-    }
+
 
 
 
@@ -119,9 +117,6 @@ body{
     font-weight: 400;
     color: #333333;
    margin-bottom: 30px;
-}
-.answertoguestion__text{
-
 }
 
 
@@ -172,11 +167,77 @@ body{
 
 
 
+.vertical{
+    padding: 50px 0;
+}
+.vertical__title{
+    margin: 30px 0;
+    text-align: center;
+}
+.vertical__body{
+    max-width: 990px;
+    margin: 0 auto;
+}
+.vertical__row{
+    display: flex;
+    margin: 0 -22.5px;
+}
+.vertical__box{
+    flex: 0 1 33.3%;
+    padding: 0 22.5px;
+    display: flex;
 
+}
+.vertical__item{
+    background-color: #445162;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #445162;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 
-
-
-
+}
+.vertical__subtitle{
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 12px 0;
+}
+.vertical__label{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+    background-color: white;
+}
+.vertical__text{
+    padding: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    flex: 1 1 auto;
+}
+.vertical__text p{
+    margin-bottom: 15px;
+}
+.vertical__button{
+    display: block;
+    max-height: 40px;
+    padding: 10px 0;
+    margin: 0 20px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 18px;
+    color: #445161;
+}
 
 
 
